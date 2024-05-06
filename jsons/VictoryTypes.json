@@ -1,1 +1,9 @@
-
+[
+    {
+        "name": "Religious",
+        "victoryScreenHeader": "Become the major world religion and\nbuild the World Religion to win!",
+        "milestones": ["Become the world religion", "Build [World Religion]"],
+        "victoryString": "You have succeeded in bringing everyone to the true religion, the religion of peace, the great religion. Because of that the world becomes more peaceful and everyone remembers your great victory!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    }
+]

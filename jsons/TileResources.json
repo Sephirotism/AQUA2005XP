@@ -1,15 +1,4 @@
 [
-    //Bostuosil Resources
-    {
-		"name": "Cardamom",
-		"resourceType": "Luxury",
-		"gold": 2
-	},
-	{
-		"name": "Saffron",
-		"resourceType": "Luxury",
-		"gold": 2
-	},
 	//City-states resources
 	{
 		"name": "Vanilla",
@@ -19,17 +8,17 @@
 	},
 	//Great Tregtia resources
 	{
-		"name": "Religious Objects", 
+		"name": "Talismans", 
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
 	{
-		"name": "Cosmetics", 
+		"name": "Trinkets", 
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
 	{
-		"name": "Souvenir", 
+		"name": "Curio", 
 		"gold": 2,
 		"resourceType": "Luxury"
 	},
@@ -44,7 +33,7 @@
 		"improvement": "Plantation"
 	},
 	{
-		"name": "Bear",
+		"name": "Bears",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle","Snow","Tundra"],
 		"gold": 1,
@@ -53,16 +42,7 @@
 		"improvement": "Camp"
 	},
 	{
-		"name": "Penguin",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Snow","Tundra"],
-		"gold": 1,
-		"food": 1,
-		"improvementStats": {"food": 1},
-		"improvement": "Camp"
-	},
-	{
-		"name": "Turtles",
+		"name": "Tortoises",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Atoll"],
 		"food": 1,
@@ -79,14 +59,6 @@
 		"improvement": "Mine",
 	},
 	{
-		"name": "Marijuana",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains"],
-		"happiness": 1,
-		"faith": 1,
-		"improvement": "Plantation",
-	},
-	{
 		"name": "Tea",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Hill"],
@@ -94,49 +66,7 @@
 		"production": 1,
 		"improvement": "Plantation",
 	},
-	{
-		"name": "Diamonds",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Jungle"],
-		"gold": 2,
-		"improvement": "Quarry",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>"],
-	},
-	{
-		"name": "Emerald",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest"],
-		"gold": 2,
-		"improvement": "Mine"
-	},
-	{
-		"name": "Ruby",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest"],
-		"gold": 2,
-		"improvement": "Mine"
-	},
-	{
-		"name": "Hitium",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Snow"],
-		"gold": 2,
-		"improvement": "Mine"
-	},
 	//Bonus
-	{
-	"name": "Hardwood",
- "resourceType": "Bonus",
- "terrainsCanBeFoundOn": ["Forest"],
- "production": 1,
- "improvement": "Lumber mill",
- "uniques":
-  ["Generated on every [14] tiles <in [Forest] tiles>",
-   "Generated on every [10] tiles <in [Hill] [Forest] tiles>",
-   "Generated on every [8] tiles <in [Tundra] [Forest] tiles>"]
-   },
    {
 		"name": "Rice",
 		"resourceType": "Bonus",
@@ -149,10 +79,10 @@
 "Generated on every [15] tiles <in [Flood plains] tiles>"]
 	},
 	{
-		"name": "Bamboo",
+		"name": "Rattan",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Marsh"],
-		"food": 1,
+		"production": 1,
 		"improvement": "Lumber mill",
 	}
 ]

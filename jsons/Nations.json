@@ -1,1 +1,22 @@
-
+[ 
+	{
+	      "name": "Soviet Union",
+	      "leaderName": "Joseph Stalin",
+	      "startBias": ["Tundra"],
+	      "adjective": ["Russian"],
+	      "preferredVictoryType": "Domination",
+	      "favoredReligion": "Atheism",
+	
+	      "defeated": "Is this the end?",
+	      "introduction": "Hell Yeah",
+	
+	      "uniqueName": "The Glory of Communism",
+	      "uniques": ["Receive free [Great Engineer] everytime you built a [Gulag] [in annexed cities]. After discovering Industrialization, [Gulag] can be built [in capital]"],
+	      "outerColor": [200,200,200],
+		  "innerColor": [100,0,0],
+	      "cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"]
+	}
+]
